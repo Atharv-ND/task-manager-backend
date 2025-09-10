@@ -1,5 +1,5 @@
 import {Request, Response} from "express";
-import {getAllTask} from "../services/taskService.js";
+import {getAllTask} from "../services/taskService";
 
 export const getAllTaskController = async (req: Request, res: Response) => {
     try{
